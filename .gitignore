@@ -1,0 +1,80 @@
+# Laravel specific files
+/vendor
+/node_modules
+
+# Directories
+/storage/*
+!storage/.gitignore
+
+# Logs inside storage
+/storage/logs/*
+!storage/logs/.gitignore
+
+# Environment
+.env
+.env.backup
+.env.production
+.env.quality
+.env.save
+
+# Composer
+composer.phar
+
+# IDE files
+*.idea
+*.fleet
+*.vscode
+.vsls.json
+
+# Logs
+logs/*
+!logs/.gitignore
+
+# Cache
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# Database
+database/database.sqlite
+*.sqlite
+*.sql
+
+# Public files
+/public/.well-known
+/public/robots.txt
+/public/robots.live.txt
+/public/build
+/public/storage
+/public/hot
+/public/tempcopy
+/public/image/*
+!/public/image/
+/public/image/*/*
+!/public/image/*/
+/public/image/*/*/*
+!/public/image/*/*/
+/public/image/*/*/*/*
+!/public/image/*/*/*/
+
+# Build files
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+*.DS_Store
+Thumbs.db
+
+# Others
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+.phpunit.result.cache
+/.vagrant
+APP-META.INI
+*.phar
+auth.json
+*.lock
+*.key
+*.log
