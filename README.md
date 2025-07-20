@@ -3,7 +3,7 @@
 **BibleVerse** is a Laravel-based Bible web app to read, search, and view Bible verses in **Tamil and English**.  
 It’s designed for use by **individuals and churches**, with features like AJAX-based navigation, clean UI, and verse projection view.
 
-![screenshot](storage/screenshots/homepage.png)
+![screenshot](public/screenshots/homepage.png)
 
 ---
 
